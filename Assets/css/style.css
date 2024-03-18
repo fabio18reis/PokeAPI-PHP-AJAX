@@ -1,0 +1,129 @@
+@import url('https://kit.fontawesome.com/057ae39a47.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100vh;
+    min-height: 100vh;
+    width: 80vw;
+    
+}
+
+.header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.title {
+    margin-bottom: auto;
+    border: 1px solid green;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.form {
+    border: 1px purple solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.main {
+    border: 1px palevioletred solid;
+    width: 100%;
+    height: 75%; /* Define a altura em relação à altura do .container */
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.main-container {
+    border: 1px rgb(38, 0, 255) solid;
+    width: 100%;
+    height: 100%; /* Define a altura em relação à altura do .container */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    border: 1px rgb(0, 191, 255) solid;
+    width: 20vw;
+    min-height: 90%; /* Defina uma altura fixa para o cartão */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-top{
+    border: 1px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    min-height:  50px;
+    margin-top: 5px;
+}
+
+.card-image{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45%;
+    width: 70%;
+    border: 1px solid aquamarine;
+}
+
+
+.card-info{
+    display: inline;
+    align-items: start;
+    border: 1px solid rgb(255, 0, 128);
+    margin-top: 30px;
+    height: 70%;
+    width: 98%;
+    margin-bottom: 5px;
+
+}
+.footer{
+    border: 1px rgb(179, 255, 0) solid;
+    width: 100%;
+    min-height: 100px;
+
+}
